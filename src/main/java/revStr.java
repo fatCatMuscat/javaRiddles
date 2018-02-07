@@ -1,4 +1,4 @@
-public class singleNum {
+public class revStr {
 
     public static String reverseString(String s) {
 
