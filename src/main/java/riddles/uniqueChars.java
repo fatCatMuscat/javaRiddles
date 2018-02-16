@@ -1,3 +1,5 @@
+package riddles;
+
 import java.util.HashMap;
 
 public class uniqueChars {
