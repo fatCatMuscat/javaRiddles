@@ -7,10 +7,34 @@ import java.util.Stack;
 public class bracesNstack {
 
     @Test
-    public void isValidTest() {
-        String braces = "()((({})))";
+    public void isVal() {
+        String braces = "()[]";
         System.out.println(isValid(braces));
     }
+
+
+    public boolean isVal(String b) {
+
+        Stack<Character> stack = new Stack<Character>();
+
+        for (char ch: b.toCharArray()) {
+            if (ch == '(') {
+                stack.add(')');
+            }
+            else if (ch == '{') {
+                stack.add('}');
+            }
+            else if (ch == '[') {
+                stack.add(']');
+            }
+            else if (stack.pop() != ch || stack.isEmpty()) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
 
 
 
