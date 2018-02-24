@@ -24,6 +24,16 @@ public class revStr {
 
     }
 
+    public String reverseString2(String s) {
+        char[] charArray = s.toCharArray();
+        char[] charArray_2 = new char[charArray.length];
+        for (int i = 0; i < charArray.length; i++) {
+            charArray_2[charArray_2.length-i-1] = charArray[i];
+        }
+        return new String(charArray_2);
+    }
+
+
 }
 
 
