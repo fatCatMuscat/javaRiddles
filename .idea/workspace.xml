@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96959213-d61d-4c18-a9c3-a27b69d49866" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/riddles/CustomSortString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/riddles/DetectCapital.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/riddles/CustomSortString.java" afterPath="$PROJECT_DIR$/src/main/java/riddles/CustomSortString.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,8 +114,8 @@
       <file leaf-file-name="CustomSortString.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/riddles/CustomSortString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="53" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -588,26 +586,26 @@
     <history-entry file="CustomSortString_test - 2018.04.18 at 09h 38m 16s.xml">
       <configuration name="CustomSortString.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DetectCapital_test - 2018.04.18 at 08h 04m 14s.xml">
-      <configuration name="DetectCapital.test" configurationId="TestNG" />
+    <history-entry file="CustomSortString_test - 2018.04.18 at 09h 43m 13s.xml">
+      <configuration name="CustomSortString.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DetectCapital_test - 2018.04.18 at 08h 05m 26s.xml">
-      <configuration name="DetectCapital.test" configurationId="TestNG" />
+    <history-entry file="CustomSortString_test - 2018.04.18 at 09h 43m 26s.xml">
+      <configuration name="CustomSortString.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="DetectCapital_test - 2018.04.18 at 08h 05m 44s.xml">
-      <configuration name="DetectCapital.test" configurationId="TestNG" />
+    <history-entry file="CustomSortString_test - 2018.04.18 at 10h 03m 38s.xml">
+      <configuration name="CustomSortString.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CustomSortString_test - 2018.04.18 at 10h 03m 55s.xml">
+      <configuration name="CustomSortString.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CustomSortString_test - 2018.04.18 at 10h 04m 04s.xml">
+      <configuration name="CustomSortString.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CustomSortString_test - 2018.04.18 at 10h 04m 16s.xml">
+      <configuration name="CustomSortString.test" configurationId="TestNG" />
     </history-entry>
     <history-entry file="DetectCapital_test - 2018.04.18 at 08h 06m 13s.xml">
       <configuration name="DetectCapital.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="substringPattern_test - 2018.04.17 at 10h 34m 17s.xml">
-      <configuration name="substringPattern.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="substringPattern_test - 2018.04.17 at 10h 34m 27s.xml">
-      <configuration name="substringPattern.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="substringPattern_test - 2018.04.17 at 10h 34m 39s.xml">
-      <configuration name="substringPattern.test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -624,7 +622,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.31321186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="410" y="253" width="810" height="581" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25763613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25763613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20886981" sideWeight="0.47925034" order="4" side_tool="false" content_ui="combo" x="26" y="116" width="349" height="362" />
@@ -1097,8 +1095,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/riddles/CustomSortString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="53" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
