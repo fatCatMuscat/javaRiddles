@@ -3,6 +3,8 @@ package riddles;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class CustomSortString {
  /*
@@ -29,18 +31,47 @@ Return any permutation of T (as a string) that satisfies this property.
         StringBuilder solution = new StringBuilder();
 
         for (char c:s) {
-            int v = m.get(c);
+            if (T.indexOf(c) != -1) {
+                int v = m.get(c);
 
-
-
-            while (v > 0) {
-                solution.append(c);
-                v--;
+                while (v > 0) {
+                    solution.append(c);
+                    v--;
+                }
             }
         }
+
+        solution = appendWithUniqueForT(t, S, solution);
         return solution.toString();
     }
-    
+
+    private StringBuilder appendWithUniqueForT (char [] T, String S, StringBuilder sol) {
+
+        // if S !contains a char from T, then append solution as many times as many values of t there are in t
+        HashMap<Character, Integer> m = toHashMap(T);
+        Set<Character> set = new HashSet<>(T.length);
+
+        for (char c: T) {
+            set.add(c);
+        }
+
+
+        for (char c: set) {
+            if (S.indexOf(c) == -1) {
+                int v = m.get(c);
+
+                while (v > 0) {
+                    sol.append(c);
+                    v--;
+                }
+
+            }
+        }
+
+        return sol;
+    }
+
+
     private HashMap<Character, Integer> toHashMap(char[] t) {
         
         HashMap<Character, Integer> m = new HashMap<>();
@@ -59,7 +90,9 @@ Return any permutation of T (as a string) that satisfies this property.
     @Test
     public void test() {
 
-        customSortString("cba", "dccccaaabbb");
+
+
+        customSortString("cbafg", "abcd");
     }
 
 
