@@ -59,4 +59,9 @@ public class RotateArray {
         rotate(new int[]{1,2}, 3);
     }
 
+    @Test
+    public void testo() {
+
+    }
+
 }
