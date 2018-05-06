@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96959213-d61d-4c18-a9c3-a27b69d49866" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CollectionsLearning/substr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/riddles/findDupes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/riddles/revStringRec.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/riddles/RotateArray.class" afterPath="$PROJECT_DIR$/target/classes/riddles/RotateArray.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/riddles/reverseInt.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/riddles/RotateArray.java" afterPath="$PROJECT_DIR$/src/main/java/riddles/RotateArray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,22 +36,33 @@
       <file leaf-file-name="RotateArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/riddles/RotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="1197">
               <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findDupes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="findDupes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/riddles/findDupes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="176">
               <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reverseInt.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/riddles/reverseInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/DataStructuresBook/r_1_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/uniqueChars.java" />
         <option value="$PROJECT_DIR$/src/main/java/StonesJems.java" />
         <option value="$PROJECT_DIR$/src/main/java/riddles/uniqueChars.java" />
@@ -137,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/main/java/riddles/revStringRec.java" />
         <option value="$PROJECT_DIR$/src/main/java/riddles/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/riddles/findDupes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/riddles/reverseInt.java" />
       </list>
     </option>
   </component>
@@ -184,8 +191,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,8 +230,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.findDupes.test">
+  <component name="RunManager" selected="TestNG.reverseInt.test">
     <configuration name="RotateArray.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -309,25 +316,6 @@
       <envs />
       <properties />
       <listeners />
-    </configuration>
-    <configuration name="WritinReadingClosingOpening" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="IO.WritinReadingClosingOpening" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="challenges" />
-      <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -441,6 +429,38 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="reverseInt.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="riddles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="challenges" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="riddles" />
+      <option name="MAIN_CLASS_NAME" value="riddles.reverseInt" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="substr.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -474,19 +494,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WritinReadingClosingOpening" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.substr.test" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.RotateArray.testo" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.RotateArray.test" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.findDupes.test" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.substr.test" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.RotateArray.testo" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.RotateArray.test" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.findDupes.test" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.reverseInt.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.findDupes.test" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RotateArray.test" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.RotateArray.testo" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.substr.test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WritinReadingClosingOpening" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.reverseInt.test" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.findDupes.test" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.RotateArray.test" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.RotateArray.testo" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.substr.test" />
       </list>
     </recent_temporary>
   </component>
@@ -507,15 +527,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RotateArray_test - 2018.04.29 at 09h 42m 57s.xml">
-      <configuration name="RotateArray.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RotateArray_testo - 2018.04.29 at 09h 31m 44s.xml">
-      <configuration name="RotateArray.testo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RotateArray_testo - 2018.04.29 at 09h 36m 08s.xml">
-      <configuration name="RotateArray.testo" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RotateArray_testo - 2018.04.29 at 09h 36m 29s.xml">
       <configuration name="RotateArray.testo" configurationId="TestNG" />
     </history-entry>
@@ -527,6 +538,15 @@
     </history-entry>
     <history-entry file="isomorphicStrings_test - 2018.04.23 at 10h 32m 37s.xml">
       <configuration name="isomorphicStrings.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="reverseInt_test - 2018.05.04 at 08h 40m 58s.xml">
+      <configuration name="reverseInt.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="reverseInt_test - 2018.05.04 at 08h 46m 10s.xml">
+      <configuration name="reverseInt.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="reverseInt_test - 2018.05.04 at 08h 46m 56s.xml">
+      <configuration name="reverseInt.test" configurationId="TestNG" />
     </history-entry>
     <history-entry file="substr_test - 2018.04.26 at 19h 33m 42s.xml">
       <configuration name="substr.test" configurationId="TestNG" />
@@ -550,7 +570,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.31321186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="524" y="194" width="798" height="576" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.31321186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="938" y="212" width="798" height="576" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25763613" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -610,13 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/riddles/revStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/riddles/RobotMoves.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -923,7 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,10 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#393#394#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,7 +963,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/riddles/RotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="1197">
           <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
           <folding />
         </state>
@@ -964,12 +971,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/riddles/findDupes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="176">
           <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/riddles/reverseInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
           </folding>
         </state>
       </provider>
